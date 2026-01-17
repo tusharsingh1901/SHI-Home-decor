@@ -9,7 +9,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/SHI-Home-decor">
       <div className="min-h-screen flex flex-col">
         <Navigation />
         <main className="flex-grow">
