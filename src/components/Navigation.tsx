@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../assets/icons/SHI_HomeDecor.png';
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -36,9 +37,13 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-20">
           <Link
             to="/"
-            className="text-2xl font-serif font-semibold text-taupe-900 hover:text-taupe-700 transition-colors"
+            className="flex items-center h-12 md:h-16 hover:opacity-80 transition-opacity"
           >
-            Elegant Curtains
+            <img
+              src={logo}
+              alt="SHI Home Decor"
+              className="h-full w-auto max-w-[200px] md:max-w-[250px] object-contain"
+            />
           </Link>
 
           {/* Desktop Navigation */}

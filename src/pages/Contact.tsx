@@ -206,10 +206,10 @@ const Contact = () => {
                 <div>
                   <h3 className="font-semibold text-taupe-900 mb-2">Email</h3>
                   <a
-                    href="mailto:info@elegantcurtains.com"
+                    href="mailto:info@shihomedecor.com"
                     className="text-taupe-600 hover:text-taupe-900 transition-colors"
                   >
-                    info@elegantcurtains.com
+                    info@shihomedecor.com
                   </a>
                 </div>
                 <div>

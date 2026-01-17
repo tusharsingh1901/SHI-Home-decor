@@ -43,7 +43,7 @@ const About = () => {
             Our Story
           </h1>
           <p className="text-xl text-taupe-700 leading-relaxed">
-            At Elegant Curtains, we believe that your home is more than just a
+            At SHI Home Decor, we believe that your home is more than just a
             place—it's a reflection of your unique style, a sanctuary of
             comfort, and a canvas for beautiful living.
           </p>
@@ -77,7 +77,7 @@ const About = () => {
             </h2>
             <p className="text-lg text-taupe-700 mb-4 leading-relaxed">
               Founded with a vision to bring luxury and elegance into every
-              home, Elegant Curtains has been curating premium fabric
+              home, SHI Home Decor has been curating premium fabric
               collections for discerning clients who appreciate the finer
               things in life.
             </p>

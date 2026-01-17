@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
+import logo from '../assets/icons/SHI_HomeDecor.png';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,9 +16,11 @@ const Footer = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
           >
-            <h3 className="text-2xl font-serif font-semibold mb-4">
-              Elegant Curtains
-            </h3>
+            <img
+              src={logo}
+              alt="SHI Home Decor"
+              className="h-12 w-auto mb-4 object-contain"
+            />
             <p className="text-cream-200 text-sm leading-relaxed">
               Crafting beautiful spaces with premium fabrics and timeless
               elegance. Your home deserves the finest.
@@ -69,7 +72,7 @@ const Footer = () => {
           >
             <h4 className="font-semibold mb-4">Get in Touch</h4>
             <ul className="space-y-2 text-sm text-cream-200">
-              <li>Email: info@elegantcurtains.com</li>
+              <li>Email: info@shihomedecor.com</li>
               <li>Phone: +1 (555) 123-4567</li>
               <li>Hours: Mon-Sat, 9AM-6PM</li>
             </ul>
@@ -77,7 +80,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-taupe-700 mt-8 pt-8 text-center text-sm text-cream-300">
-          <p>&copy; {currentYear} Elegant Curtains. All rights reserved.</p>
+          <p>&copy; {currentYear} SHI Home Decor. All rights reserved.</p>
         </div>
       </div>
     </footer>

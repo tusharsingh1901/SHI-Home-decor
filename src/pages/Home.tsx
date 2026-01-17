@@ -89,7 +89,7 @@ const Home = () => {
                 Designed for Life
               </h2>
               <p className="text-lg text-taupe-700 mb-4 leading-relaxed">
-                At Elegant Curtains, we believe that your home should be a
+                At SHI Home Decor, we believe that your home should be a
                 reflection of your unique style and a sanctuary of comfort. Our
                 carefully curated collection of premium fabrics represents years
                 of expertise in selecting only the finest materials.

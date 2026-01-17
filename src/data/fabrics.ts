@@ -1,5 +1,43 @@
 import { Fabric } from '../types/fabric';
 
+// Import all collection images
+import img005 from '../assets/categories/Serica E-Catalogue_cropped_page-0005.jpg';
+import img006 from '../assets/categories/Serica E-Catalogue_cropped_page-0006.jpg';
+import img007 from '../assets/categories/Serica E-Catalogue_cropped_page-0007.jpg';
+import img008 from '../assets/categories/Serica E-Catalogue_cropped_page-0008.jpg';
+import img009 from '../assets/categories/Serica E-Catalogue_cropped_page-0009.jpg';
+import img010 from '../assets/categories/Serica E-Catalogue_cropped_page-0010.jpg';
+import img011 from '../assets/categories/Serica E-Catalogue_cropped_page-0011.jpg';
+import img012 from '../assets/categories/Serica E-Catalogue_cropped_page-0012.jpg';
+import img013 from '../assets/categories/Serica E-Catalogue_cropped_page-0013.jpg';
+import img014 from '../assets/categories/Serica E-Catalogue_cropped_page-0014.jpg';
+import img015 from '../assets/categories/Serica E-Catalogue_cropped_page-0015.jpg';
+import img016 from '../assets/categories/Serica E-Catalogue_cropped_page-0016.jpg';
+import img017 from '../assets/categories/Serica E-Catalogue_cropped_page-0017.jpg';
+import img018 from '../assets/categories/Serica E-Catalogue_cropped_page-0018.jpg';
+import img019 from '../assets/categories/Serica E-Catalogue_cropped_page-0019.jpg';
+import img020 from '../assets/categories/Serica E-Catalogue_cropped_page-0020.jpg';
+import img021 from '../assets/categories/Serica E-Catalogue_cropped_page-0021.jpg';
+import img022 from '../assets/categories/Serica E-Catalogue_cropped_page-0022.jpg';
+import img023 from '../assets/categories/Serica E-Catalogue_cropped_page-0023.jpg';
+import img024 from '../assets/categories/Serica E-Catalogue_cropped_page-0024.jpg';
+import img025 from '../assets/categories/Serica E-Catalogue_cropped_page-0025.jpg';
+import img026 from '../assets/categories/Serica E-Catalogue_cropped_page-0026.jpg';
+import img027 from '../assets/categories/Serica E-Catalogue_cropped_page-0027.jpg';
+import img028 from '../assets/categories/Serica E-Catalogue_cropped_page-0028.jpg';
+import img029 from '../assets/categories/Serica E-Catalogue_cropped_page-0029.jpg';
+import img030 from '../assets/categories/Serica E-Catalogue_cropped_page-0030.jpg';
+import img031 from '../assets/categories/Serica E-Catalogue_cropped_page-0031.jpg';
+import img032 from '../assets/categories/Serica E-Catalogue_cropped_page-0032.jpg';
+import img033 from '../assets/categories/Serica E-Catalogue_cropped_page-0033.jpg';
+import img034 from '../assets/categories/Serica E-Catalogue_cropped_page-0034.jpg';
+import img035 from '../assets/categories/Serica E-Catalogue_cropped_page-0035.jpg';
+import img036 from '../assets/categories/Serica E-Catalogue_cropped_page-0036.jpg';
+import img037 from '../assets/categories/Serica E-Catalogue_cropped_page-0037.jpg';
+import img038 from '../assets/categories/Serica E-Catalogue_cropped_page-0038.jpg';
+import img039 from '../assets/categories/Serica E-Catalogue_cropped_page-0039.jpg';
+import img040 from '../assets/categories/Serica E-Catalogue_cropped_page-0040.jpg';
+
 export const fabrics: Fabric[] = [
   {
     id: '1',
@@ -13,7 +51,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'silk',
     featured: true,
     stylingSuggestions: ['Pair with gold hardware for a regal look', 'Ideal for formal dining areas', 'Complements rich wood furniture'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img005,
   },
   {
     id: '2',
@@ -27,7 +65,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'linen',
     featured: true,
     stylingSuggestions: ['Perfect for Scandinavian-inspired interiors', 'Works beautifully with natural wood and plants', 'Ideal for coastal homes'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img006,
   },
   {
     id: '3',
@@ -41,7 +79,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'velvety',
     featured: true,
     stylingSuggestions: ['Creates a dramatic, cozy atmosphere', 'Perfect for home theaters', 'Pairs beautifully with brass accents'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img007,
   },
   {
     id: '4',
@@ -55,7 +93,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Layer with heavier curtains for versatility', 'Perfect for bright, airy spaces', 'Creates a romantic, soft ambiance'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img008,
   },
   {
     id: '5',
@@ -69,7 +107,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Essential for shift workers', 'Perfect for home theaters', 'Ideal for nurseries'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img009,
   },
   {
     id: '6',
@@ -83,7 +121,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'cotton',
     featured: false,
     stylingSuggestions: ['Great for family homes', 'Easy to maintain and clean', 'Works with both modern and traditional styles'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img010,
   },
   {
     id: '7',
@@ -97,7 +135,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Ideal for energy-conscious homes', 'Perfect for large windows', 'Maintains consistent room temperature'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img011,
   },
   {
     id: '8',
@@ -111,7 +149,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Adds dimension to minimalist spaces', 'Perfect for statement windows', 'Complements textured wall treatments'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img012,
   },
   {
     id: '9',
@@ -125,7 +163,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'silk',
     featured: false,
     stylingSuggestions: ['Perfect for eco-friendly interiors', 'Complements natural materials', 'Ideal for contemporary spaces'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img013,
   },
   {
     id: '10',
@@ -139,7 +177,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for formal spaces', 'Creates a glamorous atmosphere', 'Pairs well with crystal and chrome'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img014,
   },
   {
     id: '11',
@@ -153,7 +191,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'cotton',
     featured: false,
     stylingSuggestions: ['Ideal for children\'s rooms', 'Perfect for allergy-sensitive homes', 'Complements natural, organic decor'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img015,
   },
   {
     id: '12',
@@ -167,7 +205,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for traditional interiors', 'Adds architectural interest', 'Works beautifully in formal dining rooms'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img016,
   },
   {
     id: '13',
@@ -181,7 +219,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Creates a romantic, soft ambiance', 'Perfect for master bedrooms', 'Ideal for layering with heavier fabrics'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img017,
   },
   {
     id: '14',
@@ -195,7 +233,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for winter homes', 'Creates a cozy, cabin-like feel', 'Ideal for reading nooks'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img018,
   },
   {
     id: '15',
@@ -209,7 +247,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for vintage-inspired interiors', 'Creates a romantic bedroom', 'Ideal for tea rooms and sunrooms'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img019,
   },
   {
     id: '16',
@@ -223,7 +261,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'velvety',
     featured: false,
     stylingSuggestions: ['Perfect for luxury interiors', 'Creates a sophisticated, plush feel', 'Ideal for statement pieces'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img020,
   },
   {
     id: '17',
@@ -237,7 +275,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'cotton',
     featured: false,
     stylingSuggestions: ['Perfect for casual, comfortable spaces', 'Ideal for farmhouse style', 'Works well in kitchens and breakfast nooks'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img021,
   },
   {
     id: '18',
@@ -251,7 +289,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for formal dining rooms', 'Creates a regal, opulent atmosphere', 'Ideal for traditional, grand homes'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img022,
   },
   {
     id: '19',
@@ -265,7 +303,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for modern, structured interiors', 'Creates clean, architectural lines', 'Ideal for contemporary dining spaces'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img023,
   },
   {
     id: '20',
@@ -279,7 +317,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for modern, minimalist spaces', 'Creates architectural interest', 'Ideal for contemporary homes'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img024,
   },
   {
     id: '21',
@@ -293,7 +331,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'velvety',
     featured: false,
     stylingSuggestions: ['Perfect for cozy bedrooms', 'Creates a warm, inviting feel', 'Ideal for family rooms'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img025,
   },
   {
     id: '22',
@@ -307,7 +345,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for traditional, elegant interiors', 'Works beautifully in formal spaces', 'Ideal for heritage homes'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img026,
   },
   {
     id: '23',
@@ -321,7 +359,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for romantic bedrooms', 'Creates soft, flowing lines', 'Ideal for bohemian-inspired spaces'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img027,
   },
   {
     id: '24',
@@ -335,7 +373,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for busy family homes', 'Offers durability with style', 'Ideal for home offices'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img028,
   },
   {
     id: '25',
@@ -349,7 +387,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for bright, sunny rooms', 'Maximizes natural light', 'Ideal for layering with other fabrics'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img029,
   },
   {
     id: '26',
@@ -363,7 +401,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'velvety',
     featured: false,
     stylingSuggestions: ['Perfect for modern, luxurious interiors', 'Creates a sophisticated atmosphere', 'Ideal for master suites'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img030,
   },
   {
     id: '27',
@@ -377,7 +415,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for adding texture to minimalist spaces', 'Creates visual interest', 'Ideal for cozy bedrooms'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
+    image: img031,
   },
   {
     id: '28',
@@ -391,7 +429,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for clean, modern interiors', 'Creates a fresh, crisp atmosphere', 'Ideal for contemporary bedrooms'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img032,
   },
   {
     id: '29',
@@ -405,7 +443,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for romantic bedrooms', 'Creates a dreamy, ethereal feel', 'Ideal for layering with other fabrics'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img033,
   },
   {
     id: '30',
@@ -419,7 +457,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'textured',
     featured: false,
     stylingSuggestions: ['Perfect for modern, Scandinavian interiors', 'Adds contemporary texture', 'Ideal for minimalist spaces'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img034,
   },
   {
     id: '31',
@@ -433,7 +471,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for luxurious bedrooms', 'Creates a sophisticated, polished look', 'Ideal for master suites'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img035,
   },
   {
     id: '32',
@@ -447,7 +485,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'silk',
     featured: false,
     stylingSuggestions: ['Perfect for elegant, low-maintenance spaces', 'Offers silk look with easy care', 'Ideal for busy households'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img036,
   },
   {
     id: '33',
@@ -461,7 +499,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'cotton',
     featured: false,
     stylingSuggestions: ['Perfect for casual, comfortable spaces', 'Ideal for family homes', 'Works with rustic and modern styles'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img037,
   },
   {
     id: '34',
@@ -475,7 +513,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for modern, structured interiors', 'Creates clean, architectural lines', 'Ideal for contemporary homes'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
+    image: img038,
   },
   {
     id: '35',
@@ -489,7 +527,7 @@ export const fabrics: Fabric[] = [
     textureFeel: 'cotton',
     featured: false,
     stylingSuggestions: ['Perfect for eco-friendly homes', 'Ideal for children\'s rooms', 'Works beautifully in natural, organic interiors'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img039,
   },
   {
     id: '36',
@@ -503,62 +541,6 @@ export const fabrics: Fabric[] = [
     textureFeel: 'smooth',
     featured: false,
     stylingSuggestions: ['Perfect for traditional, English-style interiors', 'Creates a classic, elegant atmosphere', 'Ideal for heritage homes'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
-  },
-  {
-    id: '37',
-    name: 'Gauze Light',
-    description: 'Ultra-light gauze with maximum transparency and softness',
-    longDescription: 'Feather-light gauze creates an almost ethereal presence. Perfect for spaces where you want to maintain openness and light flow.',
-    type: 'sheer',
-    roomTypes: ['bedroom', 'living room'],
-    opacity: 'sheer',
-    colorTone: 'neutral',
-    textureFeel: 'smooth',
-    featured: false,
-    stylingSuggestions: ['Perfect for maximizing natural light', 'Creates an airy, open feel', 'Ideal for small spaces'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
-  },
-  {
-    id: '38',
-    name: 'Tweed Texture',
-    description: 'Sophisticated tweed with classic texture and timeless appeal',
-    longDescription: 'Classic tweed texture adds sophistication and warmth. The traditional weave creates visual interest and a cozy, refined atmosphere.',
-    type: 'decorative',
-    roomTypes: ['living room', 'office', 'bedroom'],
-    opacity: 'semi-sheer',
-    colorTone: 'warm',
-    textureFeel: 'textured',
-    featured: false,
-    stylingSuggestions: ['Perfect for traditional, sophisticated interiors', 'Creates a cozy, refined atmosphere', 'Ideal for libraries and studies'],
-    image: 'https://images.unsplash.com/photo-1556228578-0d85b1a4d571?w=800&q=80',
-  },
-  {
-    id: '39',
-    name: 'Crepe Delicate',
-    description: 'Fine crepe with subtle texture and elegant drape',
-    longDescription: 'Delicate crepe offers a subtle texture and beautiful drape. Creates a refined, understated elegance perfect for sophisticated spaces.',
-    type: 'semi-sheer',
-    roomTypes: ['bedroom', 'living room'],
-    opacity: 'semi-sheer',
-    colorTone: 'neutral',
-    textureFeel: 'textured',
-    featured: false,
-    stylingSuggestions: ['Perfect for refined, understated elegance', 'Creates a sophisticated atmosphere', 'Ideal for master bedrooms'],
-    image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&q=80',
-  },
-  {
-    id: '40',
-    name: 'Jersey Soft',
-    description: 'Soft jersey knit with comfort and casual elegance',
-    longDescription: 'Comfortable jersey knit offers a relaxed, casual elegance. Perfect for creating a cozy, lived-in feel with modern style.',
-    type: 'semi-sheer',
-    roomTypes: ['bedroom', 'living room'],
-    opacity: 'semi-sheer',
-    colorTone: 'neutral',
-    textureFeel: 'smooth',
-    featured: false,
-    stylingSuggestions: ['Perfect for casual, comfortable spaces', 'Creates a relaxed, modern feel', 'Ideal for contemporary bedrooms'],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80',
+    image: img040,
   },
 ];
